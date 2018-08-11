@@ -24,4 +24,15 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README]
+[a link](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+## The Free API used in this project is from:
+[a link](https://jsonplaceholder.typicode.com/)
+
+## All Animation is takken from:
+[a link](https://material.io/)
+
+
+
