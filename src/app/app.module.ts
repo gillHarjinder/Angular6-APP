@@ -8,6 +8,9 @@ import { PostsComponent } from './posts/posts.component';
 import { UsersComponent } from './users/users.component';
 import { DetailsComponent } from './details/details.component';
 
+
+// this import is for http client
+import { HttpClientModule } from '@angular/common/http';
 /**
  * declaration: Components is added to this field.
  * imports: use of libraries use here 
@@ -24,7 +27,8 @@ import { DetailsComponent } from './details/details.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
