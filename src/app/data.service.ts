@@ -16,11 +16,22 @@ import { HttpClient } from '@angular/common/http';
 export class DataService {
 
   constructor(private http: HttpClient) { }
-    // custom method which caal upon in component
+    // custom method which call upon in component
 
-    // this returing the JSON formatted API
+    // this returing the JSON formatted API of USERS
     getUsers(){
       return this.http.get('https://jsonplaceholder.typicode.com/users')
+    }
+
+    // this returing the JSON formatted API of
+    // single user by their id
+    getUser(userId){
+      return this.http.get('https://jsonplaceholder.typicode.com/users/'+userId)
+    }
+
+    // this returing the JSON formatted API of POSTS
+    getPosts(){
+      return this.http.get('https://jsonplaceholder.typicode.com/posts')
     }
   
 }
